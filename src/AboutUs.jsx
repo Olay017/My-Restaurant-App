@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 
 function AboutUs ()  {
   return (
@@ -8,12 +9,12 @@ function AboutUs ()  {
         made with love. Our chefs combine the best ingredients with creative recipes 
         to offer an unforgettable dining experience.</p>
 
-      <a
-        href="/menu"
+      <Link
+        to="/menu"
         className="px-6 py-3 bg-white text-orange-500 rounded-lg shadow-md hover:bg-orange-100"
         >
         Explore Our Menu
-      </a>
+      </Link>
     </div>
   );
 };
